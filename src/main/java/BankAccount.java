@@ -25,12 +25,10 @@ public class BankAccount {
     }
 
     public static void main(String[] args) {
-        // First part: Create a single account, deposit and print details
         BankAccount myAccount = new BankAccount("My Account", 500);
         myAccount.deposit(100);
         System.out.println(myAccount);
 
-        // Second part: Bank transfer
         BankAccount larryAccount = new BankAccount("Larry", 5000);
         BankAccount maryAccount = new BankAccount("Mary", 300);
 
